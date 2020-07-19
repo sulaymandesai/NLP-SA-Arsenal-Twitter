@@ -7,9 +7,9 @@ import csv
 import numpy as np
 
 # Inserting passwords for accessing Tweepy API
-# consumer_key = "PASSCODE"
-# consumer_secret = "PASSCODE"
-# access_token = "PASSCODE"
+consumer_key = "PASSCODE"
+consumer_secret = "PASSCODE"
+access_token = "PASSCODE"
 
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 
