@@ -2,7 +2,7 @@
 
 ## 11.07.2020
 
-# Initial Ideas
+### Initial Ideas
 
 1. Classify a whether an ayah is makki or madani
 2. **Pull tweets from football twitter about football clubs**
