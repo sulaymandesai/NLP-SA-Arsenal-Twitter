@@ -20,3 +20,11 @@
 1. Tweet scraper created and stored in csv files
 2. CSV files with stored tweets added
 3. Starting to research Sentiment Analysis and any good resources to build model
+
+## 20.07.2020
+
+### Sentiment Analysis Steps
+
+1. Split strings of texts into small parts called Tokens.
+2. Normalize data - group similar words together.
+3. Remove any noise from the data.

@@ -6,14 +6,15 @@ import tweepy
 import csv
 import numpy as np
 
-# Inserting passwords for accessing Tweepy API
-consumer_key = "PASSCODE"
-consumer_secret = "PASSCODE"
-access_token = "PASSCODE"
+# Insert passwords for accessing Tweepy API
+# consumer_key = "PASSCODE"
+# consumer_secret = "PASSCODE"
+# access_token = "PASSCODE"
 
-auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
+# Uncomment next 2 lines to use API
+# auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 
-api = tweepy.API(auth, wait_on_rate_limit=True)
+# api = tweepy.API(auth, wait_on_rate_limit=True)
 
 
 # Defining columns to insert into csv file
