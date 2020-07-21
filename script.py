@@ -1,10 +1,16 @@
 ### Importing modules
 import time
-
-import pandas as pd
-import tweepy
 import csv
+
 import numpy as np
+import pandas as pd
+
+import tweepy
+import nltk
+
+##################################################################################################################################
+# SCRAPING TWEETS
+##################################################################################################################################
 
 # Insert passwords for accessing Tweepy API
 # consumer_key = "PASSCODE"
@@ -150,4 +156,9 @@ date_since = "2020-07-12"
 
 # Removing repeated tweets, uncomment below line to run.
 # remove_repeated_tweets("tweetsRAW.csv")
+
+
+##################################################################################################################################
+# STARTING SENTIMENT ANALYSIS
+##################################################################################################################################
 
